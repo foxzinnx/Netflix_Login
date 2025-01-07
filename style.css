@@ -12,8 +12,8 @@
 body{
     min-height: 100vh;
     background: url(https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/BR-pt-20241230-TRIFECTA-perspective_a521047e-2c41-476d-a2f7-b5ad89bad928_large.jpg) no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 
 .header{
@@ -54,7 +54,7 @@ body{
     width: 100%;
     height: 100%;
     font-size: 16px;
-    background: rgba(158, 158, 158, 0.1);
+    background: rgba(158,158,158,0.1);
     letter-spacing: .5px;
     border: 1px solid #777;
     padding: 20px 35px 0 15px;
@@ -69,7 +69,7 @@ body{
     position: relative;
     top: -64%;
     left: 15.5px;
-    transform: translateY(-50%);
+    transform: translateX(-50);
     color: #b3b3b3;
     transition: .2s ease;
 }
@@ -89,7 +89,7 @@ body{
     font-weight: 500;
     letter-spacing: .5px;
     cursor: pointer;
-    transform: .3s;
+    transition: 0.5s ease;
 }
 
 .btn:hover{
@@ -99,17 +99,17 @@ body{
 .code{
     width: 100%;
     height: 40px;
-    background: rgba(255,255,255,.25);
+    background: rgba(218, 218, 218, 0.25);
     border-radius: 6px;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: .5px;
     cursor: pointer;
-    transform: 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .code:hover{
-    background: rgba(255,255,255,.20);
+    background: rgba(211, 211, 211, 0.2);
 }
 
 p{
@@ -138,7 +138,7 @@ span{
 span input{
     accent-color: #fff;
     height: 15px;
-    width: 15px
+    width: 15px;
 }
 
 .conta{
@@ -150,7 +150,6 @@ span input{
 .conta a{
     text-decoration: none;
     font-weight: 500;
-
 }
 
 .conta a:hover{
@@ -171,29 +170,28 @@ span input{
     text-decoration: underline;
 }
 
-
-.footer {
+.footer{
     margin-top: 4rem;
     padding: 5rem 16%;
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1),  rgba(0, 0, 0, 1),  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(to top, rgba(0,0,0, 1), rgba(0,0,0, 1), rgba(0,0,0, 1), rgba(0,0,0,1),  rgba(0,0,0,1),  rgba(0,0,0,1), rgba(0,0,0, 0.5));
 }
 
-.footer h5 {
+.footer h5{
     font-size: 17px;
     text-align: left;
     font-weight: 300;
-    color: #bdbdbd;
+    color: #bdbdbd
 }
 
-.lista-footer {
+.lista-footer{
     margin-top: 25px;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
 
-.lista-footer a {
+.lista-footer a{
     color: #bbbbbb;
     font-size: 14.5px;
     font-weight: 300;
@@ -202,16 +200,16 @@ span input{
 select {
     min-height: 20px;
     min-width: 20px;
-    background: rgba(167, 167, 167, 0.1);
+    background: rgba(167,167,167,0.1);
     padding: .4rem 2%;
     font-size: .9rem;
-    border: .1px solid rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.5);
     border-radius: 6px;
     backdrop-filter: blur(1px);
     margin-top: 20px;
 }
 
-option {
+option{
     color: #000;
 }
 
